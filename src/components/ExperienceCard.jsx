@@ -21,9 +21,9 @@ const ExperienceCard = () => {
             </div>
             <div className="my-3 font-semibold">{position}</div>
             {responsibilities.map((item, index) => (
-              <div key={index}>
+              <div key={index} className="text-sm">
                 <ul className="list-disc list-outside ms-5">
-                  <li>{item}</li>
+                  <li className="my-2">{item}</li>
                 </ul>
               </div>
             ))}

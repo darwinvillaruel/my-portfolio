@@ -1,6 +1,6 @@
 const Summary = () => {
   return (
-    <div className="my-5">
+    <div className="my-5 text-sm">
       <h1 className="font-semibold text-lg">Summary</h1>
       <p className="my-3">
         My name is Darwin. I’m a full stack developer with interest in building
