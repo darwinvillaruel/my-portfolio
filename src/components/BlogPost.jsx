@@ -8,12 +8,12 @@ const BlogPost = () => {
       {blogs.map(({ title, overview }, index) => (
         <div key={index}>
           <h1 className="font-semibold my-3">{title}</h1>
-          <p>
+          <p className="text-sm">
             {overview.length > summaryLength
               ? `${overview.slice(0, summaryLength)}...`
               : overview}
           </p>
-          <a href="/" className="text-blue-500">
+          <a href="/" className="text-blue-500 text-sm">
             Read more
           </a>
         </div>
