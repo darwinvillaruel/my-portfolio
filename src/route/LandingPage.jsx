@@ -6,7 +6,7 @@ import Technical from "../components/Technical";
 
 const LandingPage = () => {
   return (
-    <div className="font-poppins mx-2 sm:mx-16 md:mx-40 lg:mx-60 xl:mx-96 my-14 px-4">
+    <div className="font-poppins mx-2 sm:mx-16 md:mx-40 lg:mx-60 xl:mx-custom my-14 px-4">
       <Header />
       <Summary />
       <hr className="my-3" />
