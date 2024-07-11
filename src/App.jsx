@@ -1,3 +1,4 @@
+import IroncladLinear from "./components/Case Study/IroncladLinear.jsx";
 import LandingPage from "./route/LandingPage";
 import Projects from "./route/Projects.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -11,6 +12,10 @@ function App() {
     {
       path: "/projects",
       element: <Projects />,
+    },
+    {
+      path: "/projects/ironclad-linear",
+      element: <IroncladLinear />,
     },
   ]);
 

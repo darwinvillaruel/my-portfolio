@@ -3,14 +3,10 @@ const blogs = [
     title: "Integrating Ironclad with Linear via Zapier",
     overview:
       "The goal of this project was to automate the process of creating projects in Linear when specific events occur in Ironclad, an advanced contract lifecycle management platform. Given that Linear’s integration in Zapier does not support a direct action to create a project, a workaround using webhooks was implemented.",
-    challengesTitle: [
-      "Limited Zapier Actions",
-      "Data Synchronization",
-      "Automation",
-    ],
+    challengesTitle: ["Limited Zapier Actions", "GraphQL Query", "Automation"],
     challenges: [
       "Zapier's integration for Linear did not include an action to create a project directly.",
-      "Ensuring that the data from Ironclad was accurately and efficiently transferred to Linear.",
+      "Linear's API is built in GraphQL and Zapier doesn't support this directly.",
       "Creating a seamless and automated workflow to reduce manual intervention.",
     ],
     approach:

@@ -1,4 +1,5 @@
 import blogs from "../data/blogs";
+import { NavLink } from "react-router-dom";
 
 const BlogPost = () => {
   const summaryLength = 150;
@@ -13,9 +14,11 @@ const BlogPost = () => {
               ? `${overview.slice(0, summaryLength)}...`
               : overview}
           </p>
-          <a href="/" className="text-blue-500 text-sm">
+          <NavLink
+            to="/projects/ironclad-linear"
+            className="text-blue-500 text-sm">
             Read more
-          </a>
+          </NavLink>
         </div>
       ))}
     </article>
