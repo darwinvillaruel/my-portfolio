@@ -7,7 +7,7 @@ export default {
         poppins: ["Poppins", "sans-serif", "helvetica"],
       },
       spacing: {
-        custom: "30rem",
+        custom: "20rem",
       },
     },
   },

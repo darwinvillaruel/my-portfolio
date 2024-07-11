@@ -7,7 +7,7 @@ const Footer = () => {
       </p>
       <p className="my-5">
         📚 Current Interest? Polishing my Javascript knowledge by deep diving to
-        advance concepts.
+        advance concepts. Practicing my Mandarin to achieve native level.
       </p>
     </div>
   );
